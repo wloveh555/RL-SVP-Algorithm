@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 模型文件
+*.pth
+*.pt
+*.pkl
+
+# 日志文件
+*.log
+*.txt
+!requirements.txt
+
+# IDE
+.idea/
+.vscode/
+
+# 大体积数据 (假设你的 data 目录下只放 demo，如果有很多格文件可以在这里屏蔽)
+data/*.bin
